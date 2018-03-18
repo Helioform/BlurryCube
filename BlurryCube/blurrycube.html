@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transparent Blurry Cube</title>
+        <!-- Displays a blurry transparent rotating cube. -->
+ <script src="blurrycube.js"></script>   </head>
+    <body bgcolor = "#000000">
+       <label style="color:gray;">Cube Color</label>
+       <select id="cube_color">
+            <option>Green</option>
+            <option>Red</option>
+            <option>Blue</option>
+       </select>  
+       <div>
+            <label style="color:gray;">Animation Speed</label>
+            <input id="anim_speed" type="range" min="5" max="100" value="60"/>
+       </div>
+       <div>
+            <label style="color:gray;">Transparency</label>
+            <input id="trans" type="range" min="10" max="100" value="50"/>
+        </div>
+        <canvas></canvas>
+    </body>
+</html>
